@@ -1,0 +1,20 @@
+{
+  "name": "ar",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Brnvsk/planetariumx-qr-check.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Brnvsk/planetariumx-qr-check/issues"
+  },
+  "homepage": "https://github.com/Brnvsk/planetariumx-qr-check#readme",
+  "description": ""
+}
