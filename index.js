@@ -1,4 +1,5 @@
-const apiUrl = 'http://localhost:5050' //local
+// const apiUrl = 'http://localhost:5050' //local
+const apiUrl = 'https://pleasant-underwear-goat.cyclic.app/'
 const content = document.getElementById('content')
 
 const query = new URLSearchParams(window.location.search)
