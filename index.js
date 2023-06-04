@@ -1,5 +1,5 @@
 // const apiUrl = 'http://localhost:5050' //local
-const apiUrl = 'https://pleasant-underwear-goat.cyclic.app/'
+const apiUrl = 'https://pleasant-underwear-goat.cyclic.app'
 const content = document.getElementById('content')
 
 const query = new URLSearchParams(window.location.search)
@@ -22,6 +22,7 @@ if (!bookingId) {
 				</div>
 				<p>Дата и время: ${data.date} ${data.time}</p>
 				<p>Адрес: ${data.address}</p>
+				
 				<p>Рассадка:</p>
 				<ul class="places">
 					${JSON.parse(data.places).map(place => formatPlace(place)).join('')}
